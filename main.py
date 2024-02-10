@@ -10,7 +10,7 @@ from joblib import load
 model_saved = load('model_nba.joblib')
 
 def predict_games(team_home,team_away):
-    gamefinder = leaguegamefinder.LeagueGameFinder(date_from_nullable='01/01/2020', league_id_nullable='00')
+    gamefinder = leaguegamefinder.LeagueGameFinder(date_from_nullable='10/18/2022', league_id_nullable='00')
     games = gamefinder.get_data_frames()[0]
     games = games[['TEAM_NAME', 'GAME_ID', 'GAME_DATE', 'MATCHUP', 'WL', 'PLUS_MINUS']]
 

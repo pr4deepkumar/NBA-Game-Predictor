@@ -18,7 +18,7 @@ def b64_image(image_filename):
     return 'data:image/png;base64,' + base64.b64encode(image).decode('utf-8')
 
 gamefinder = leaguegamefinder.LeagueGameFinder(
-    date_from_nullable='01/01/2020', league_id_nullable='00')
+    date_from_nullable='10/18/2022', league_id_nullable='00')
 games = gamefinder.get_data_frames()[0]
 
 team_list = [
