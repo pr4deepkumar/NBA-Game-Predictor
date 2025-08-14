@@ -43,9 +43,9 @@ python nba_game_predictor_dashboard.py
 ## Project Structure
 ```
 NBA-Game-Predictor/
-│-- data/                # Dataset files
-│-- models/              # Saved model files
-│-- main.py               # FastAPI backend
+│-- main.py                # FastAPI backend
+│-- model_nba.joblib             
+│-- nba_game_predictor.ipynb               
 │-- nba_game_predictor_dashboard.py # Dashboard application
 │-- requirements.txt
 │-- README.md
